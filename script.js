@@ -23,13 +23,6 @@ const renderTable = () => {
         btn.innerHTML += "Remove";
         newRow.appendChild(btn);
         table.appendChild(newRow);
-        // console.log(ele.Id,ele.TaskName,ele.Time)
-        // const data1 = document.createTextNode(ele.Id.toString());
-        // const data2 = document.createTextNode(ele.TaskName.toString());
-        // const data3 = document.createTextNode(ele.Time.toString());
-        // head.appendChild(data);
-        // newRow.appendChild(head);
-        // table.appendChild(newRow);
         itterator++;
     })
 }
