@@ -1,4 +1,38 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
+}
+table,
+td,
+th {
+  background-color: teal;
+  border: solid black;
+}
+table {
+  margin-top: 5vw;
+  margin-left: 27vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  font-size: 2rem;
+  border: teal solid 2px;
+}
+input {
+  border: white solid;
+  color: black;
+}
+button {
+  border: white solid;
+  color: black;
+  margin-top: 10px;
+}
+.labelTime,
+.labelTask {
+  margin-top: 1.5em;
+}
+body {
+  background-color: black;
+  text-align: center;
 }

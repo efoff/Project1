@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TaskApp</title>
 </head>
+<link rel="stylesheet" href="/style.css">
 <body>
-    
+    <header>Tasker</header>
+    <div class="labelTask"><label for="Task">Enter Task</label></div><br>
+    <input type="text" class="TaskName" id="Task"><br>
+    <div class="labelTime"><label for="Time">Enter Time</label></div><br>
+    <input type="time" class="TaskTime" id="Time"><br>
+    <button type="submit" class="btn" onclick="add(-1)">Add Task</button>
+    <div >
+        <table>  
+            <thead>
+            <tr>
+                <th>S No.</th>
+                <th>Task</th>
+                <th>Deadline</th>
+                <th>Remove</th>
+            </tr>
+            </thead>
+            <tbody id="dyn">
+                
+            </tbody>
+        </table>
+    </div>
 </body>
+<script src="/script.js"></script>
 </html>
